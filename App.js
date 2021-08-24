@@ -11,7 +11,7 @@ export default function App() {
   async function onReadSecure() {
 	  const myToken = await SecureStore.getItemAsync('token');
 	  console.log(myToken);
-	  setDAta(myToken);
+	  setData(myToken);
   }
 
   return (
